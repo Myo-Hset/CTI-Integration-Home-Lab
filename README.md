@@ -74,7 +74,8 @@ Now you can access the AlienVault Threat Intelligence feed on OpenCTI.
 
 <img width="1886" height="885" alt="Screenshot 2025-11-25 011701" src="https://github.com/user-attachments/assets/de2a3a75-814f-4cbc-86d8-8478168f3275" />
 
- 
+ ###### Note
+- To check whether the AlienVault ingestion was successful, go to the Ingestion section under the Data and Monitoring tab on the right
 
 ## Summary 
 OpenCTI is a powerful tool, and if you utilize and adapt it properly, it can be very useful for your necessary cases.
