@@ -82,7 +82,7 @@ Now you can access the AlienVault Threat Intelligence feed on OpenCTI.
 
 ## Integrating Splunk
 
-To integrate with Splunk, go to the OpenCTI External Connectors at https://github.com/OpenCTI-Platform/connectors/tree/master/external-import and look for the Splunk Connector. Check the docker-compose.yml file there and use its format as an example for updating your own docker-compose.yml. You will need to generate a new token in Splunk. If you have not installed Splunk and need assistance, please visit my Splunk lab repository for a step‑by‑step guide.
+To integrate with Splunk, go to the OpenCTI External Connectors at https://github.com/OpenCTI-Platform/connectors/tree/master/external-import and look for the Splunk Connector. Check the docker-compose.yml file there and use its format as an example for updating your own **docker-compose.yml**. You will need to generate a new token in Splunk. If you have not installed Splunk and need assistance, please visit my <a href="https://github.com/Myo-Hset/Splunk-on-Linux">Splunk-on-Linux</a> repository for a step‑by‑step guide.
 
 Fill in the necessary information as highlighted:
 
