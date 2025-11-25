@@ -54,7 +54,7 @@ For the username and password, use the values of OPENCTI_ADMIN_EMAIL and OPENCTI
 
 ## Thrent Intelligence Feed ingestion
 
-After the installation, I will ingest the Alivant Vault Threat Intelligence feed. Go to the OpenCTI External Connectors -> https://github.com/OpenCTI-Platform/connectors/tree/master/external-import . And look for the Open CTI Alien Vault Connector. And check the docker-compose.yml file to use this format as an example. Then Update it to our docker-compose.yml. You need to have Alienvault account to obtain Alivent Vault API Key. 
+After the installation, I will ingest the Alivant Vault Threat Intelligence feed. Go to the OpenCTI External Connectors -> https://github.com/OpenCTI-Platform/connectors/tree/master/external-import . And look for the Open CTI Alien Vault Connector. And check the docker-compose.yml file to use that format as an example for updating our yml file. Then Update it to our docker-compose.yml. You need to have Alienvault account to obtain Alivent Vault API Key. 
 
 Fill in the necessary information as highlighted:
 
