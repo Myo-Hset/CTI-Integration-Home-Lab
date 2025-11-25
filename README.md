@@ -2,7 +2,7 @@
 
 ## Objective
 
-Creating the CentralLight Open Source Threat Intelligence Home Lab to easy access and utiliziing the Open source Threat intelligent tool.
+Creating the CentralLight Open Source Threat Intelligence Home Lab for easy access and utilization of open‑source threat intelligence tools. And intregration with splunk.
 
 ## Skills Learned 
 - Deployed Ubuntu server and integrated it with OpenCTI and Splunk for centralized threat intelligence management.
