@@ -2,7 +2,7 @@
 
 ## Objective
 
-Creating the CentralLight Open Source Threat Intelligence Home Lab for easy access and utilization of open‑source threat intelligence tools. And intregration with splunk.
+Creating the CentralLight Open Source Threat Intelligence Home Lab for easy access and utilization of open‑source threat intelligence tools.
 
 ## Skills Learned 
 - Deployed Ubuntu server and integrated it with OpenCTI and Splunk for centralized threat intelligence management.
@@ -52,11 +52,31 @@ For the username and password, use the values of OPENCTI_ADMIN_EMAIL and OPENCTI
 
 <img width="1904" height="883" alt="image" src="https://github.com/user-attachments/assets/6239735e-b263-4636-98f6-207b4adff480" />
 
+## Thrent Intelligence Feed ingestion
+
+After the installation, I will ingest the Alivant Vault Threat Intelligence feed. Go to the OpenCTI External Connectors -> https://github.com/OpenCTI-Platform/connectors/tree/master/external-import . And look for the Open CTI Alien Vault Connector. And check the docker-compose.yml file to use this format as an example. Then Update it to our docker-compose.yml. You need to have Alienvault account to obtain Alivent Vault API Key. 
+
+Fill in the necessary information as highlighted:
+
+<img width="817" height="559" alt="Screenshot 2025-11-25 173933" src="https://github.com/user-attachments/assets/1023eca4-9f75-4ddb-843a-fbf1322da116" />
+
+**OPENCTI_TOKEN**
+Use the same key as your previously generated . **OPEN_ADMIN_TOKEN**
+
+**CONNECTOR_ID**
+Generate a new UUID from https://www.uuidgenerator.net/.
+
+**ALIENVAULT_API_KEY**
+Obtain this key from https://otx.alienvault.com/api.
+You will need an AlienVault account to access the API key.
+
+Now you can access the AlienVault Threat Intelligence feed on OpenCTI.
+
+<img width="1886" height="885" alt="Screenshot 2025-11-25 011701" src="https://github.com/user-attachments/assets/de2a3a75-814f-4cbc-86d8-8478168f3275" />
 
  
 
-
-
-
+## Summary 
+OpenCTI is a powerful tool, and if you utilize and adapt it properly, it can be very useful for your necessary cases.
 
 
