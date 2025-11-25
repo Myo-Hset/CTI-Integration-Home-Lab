@@ -1,4 +1,4 @@
-# CTI-Integration-Home-Lab
+# CTI-Integration Home Lab
 
 ## Objective
 
